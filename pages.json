@@ -1,0 +1,195 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/account/login/login",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/account/register/register",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/account/set-password/set-password",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/account/already-register/already-register",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/account/finish-register/finish-register",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path" : "pages/refund/loan-application/loan-application",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/refund/loan-information/loan-information",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/refund/loan-result/loan-result",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/coupons/my-coupons/my-coupons",
+			"style" : 
+			{
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path" : "pages/increase-amount/increase-amount",
+			"style" : 
+			{
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path" : "pages/web-view/web-view",
+			"style" : 
+			{
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path" : "pages/information/info-basic/info-basic",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/information/premise-agree/premise-agree",
+			"style" : 
+			{
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path" : "pages/information/info-upload/info-upload",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/account/forget-password/forget-password",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/information/info-bank/info-bank",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/information/add-bank/add-bank",
+			"style" : 
+			{
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path" : "pages/information/loan-status/loan-status",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/repay/repay",
+			"style" : 
+			{
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path" : "pages/history-loan/history-loan",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/message/message",
+			"style" : 
+			{
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path" : "pages/refund/loan-agreement/loan-agreement",
+			"style" : 
+			{
+				"navigationBarTextStyle": "white"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "white",
+		"backgroundColor": "white",
+		"app-plus": {
+			"scrollIndicator": "none", //隐藏滚动条
+			"bounce": "none", //关闭反弹效果
+			"titleNView": false
+		}
+	},
+	// "tabBar": {
+	// 	"color": "#999999",
+	// 	"selectedColor": "#343434",
+	// 	"backgroundColor": "#FFFFFF",
+	// 	"borderStyle": "black",
+	// 	"list": [{
+	// 			"pagePath": "pages/index/index",
+	// 			"text": "%tab.home%",
+	// 			"iconPath": "static/tabbar/home.png",
+	// 			"selectedIconPath": "static/tabbar/homeed.png"
+	// 		},
+	// 		{
+	// 			"pagePath": "pages/loan/loan",
+	// 			"text": "%tab.loan%",
+	// 			"iconPath": "static/tabbar/loan.png",
+	// 			"selectedIconPath": "static/tabbar/loaned.png"
+	// 		},
+	// 		{
+	// 			"pagePath": "pages/profile/profile",
+	// 			"text": "%tab.profile%",
+	// 			"iconPath": "static/tabbar/profile.png",
+	// 			"selectedIconPath": "static/tabbar/profileed.png"
+	// 		}
+	// 	]
+	// },
+	"uniIdRouter": {}
+}

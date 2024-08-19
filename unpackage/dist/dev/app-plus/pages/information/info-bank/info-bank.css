@@ -1,0 +1,8 @@
+
+body {
+		background-image: url('../../../static/icon/bg.png');
+		background-size: cover;
+}
+uni-button::after {
+		border: none;
+}

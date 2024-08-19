@@ -1,0 +1,7 @@
+
+body {
+		background-color: #F1F4F1;
+}
+uni-button::after {
+		border: none;
+}

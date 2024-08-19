@@ -1,0 +1,8 @@
+
+body {
+		background-image: url('../../static/icon/bg.png');
+		background-size: cover;
+}
+.dashed-line {
+	  border-bottom: 1px dashed #999999;
+}

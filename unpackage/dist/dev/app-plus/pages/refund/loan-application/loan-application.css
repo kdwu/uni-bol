@@ -1,0 +1,16 @@
+
+	/* 页面背景 */
+body {
+		background-image: url('../../../static/icon/bg.png');
+		background-size: cover;
+}
+
+	/* button 去掉默认的边框 */
+uni-button::after {
+		border: none;
+}
+
+	/* 修改 slider 的高度 */
+.uni-slider-handle-wrapper {
+		height: 0.65625rem !important;
+}
